@@ -3,7 +3,16 @@
     margin: 0;
     padding: 0;
     max-height: 20rem;
-    overflow: scroll;
+    overflow: auto;
+}
+
+.container {
+    margin: 25px;
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .total {
